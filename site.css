@@ -14,12 +14,12 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    border-radius: 2px;
+    border-radius: 4px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3), -5px 5px 10px rgba(0,0,0,0.3);
 }
 
 hr {
-    width: 80%;
+    width: 90%;
     border-width: 2px;
     border-color: white;
 }
@@ -37,4 +37,28 @@ h3 {
 .subheader {
     text-align: center;
     font-size: 20px;
+}
+
+.btn-expand {
+    width: 100%;
+}
+
+.btn-default {
+    background-color: #0A5082;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #021B2D;
+}
+
+.btn-default:hover {
+    background-color: #0A5082;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-default:active:focus,
+.btn-default:focus {
+    background-color: #062F4F;
+    color: white;
+    border: 1px solid white;
 }
