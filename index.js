@@ -1,25 +1,20 @@
-applyAges("age", "2000/07/06");
-applyAges("unity-age", "2013/07/06");
+this.addEventListener("load", applyRandomImage);
 
-function applyAges(spanName, dateString) {
-    var spans = document.getElementsByClassName(spanName)
-    var i = 0;
-    for (i = 0; i < spans.length; i++) {
-        while(spans[i].firstChild) {
-            spans[i].removeChild(spans[i].firstChild);
-        }
-        var txt = document.createTextNode(getAge(dateString));
-        spans[i].appendChild(txt);
-    }
-}
-
-function getAge(dateString) {
-    var today = new Date();
-    var birthDate = new Date(dateString);
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
-    }
-    return age;
+function applyRandomImage() {
+    var backgroundElement = document.getElementById("background-image");
+    var images = [
+        "/images/backgrounds/sj_1.png",
+        "/images/backgrounds/sj_2.png",
+        "/images/backgrounds/sj_3.png",
+        "/images/backgrounds/jumps_1.png",
+        "/images/backgrounds/jumps_2.png",
+        "/images/backgrounds/jumps_3.png",
+        "/images/backgrounds/qs_1.jpg",
+        "/images/backgrounds/qs_2.jpg",
+        "/images/backgrounds/qs_3.jpg",
+        "/images/backgrounds/sh_1.png",
+        "/images/backgrounds/sh_2.png",
+        "/images/backgrounds/sh_3.png",
+    ];
+    backgroundElement.style.backgroundImage = "url('" + images[Math.floor(Math.random() * images.length)] + "')";
 }
