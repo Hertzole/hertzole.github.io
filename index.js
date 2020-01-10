@@ -15,6 +15,9 @@ function applyRandomImage() {
         "/images/backgrounds/sh_1.jpg",
         "/images/backgrounds/sh_2.jpg",
         "/images/backgrounds/sh_3.jpg",
+        "/images/backgrounds/st_1.jpg",
+        "/images/backgrounds/st_2.jpg",
+        "/images/backgrounds/st_3.jpg"
     ];
     backgroundElement.style.backgroundImage = "url('" + images[Math.floor(Math.random() * images.length)] + "')";
 }
