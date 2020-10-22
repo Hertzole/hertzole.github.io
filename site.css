@@ -69,6 +69,14 @@ body {
     z-index: 2;
 }
 
+a {
+    color: #49c7f9;
+}
+
+a:hover {
+    color: #4692e3;
+}
+
 #background-image {
     position: fixed;
     background-position: center center;
@@ -114,16 +122,29 @@ body {
 
 /* Desktop */
 @media (min-width: 768px) {
-
     .navbar-light {
         background-color: transparent;
     }
 }
 
-/* Mobile */
+/* Tablet */
 @media (max-width: 991.98px) {
     .navbar-light {
         background-color: #1B262E;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .btn-primary {
+        min-width: 0px !important;
+        width: 100%;
+        margin-left: 2px !important;
+        margin-right: 2px !important;
+    }
+
+    .button-container-flex {
+        display: flex;
     }
 }
 
@@ -186,4 +207,59 @@ body {
 .big-notice {
     text-align: center;
     padding: 50px;
+}
+
+.store-icon {
+    max-height: 100%;
+    max-width: 1.2rem !important;
+    fill: white;
+    padding-bottom: 3px;
+}
+
+.btn-primary {
+    background-color: #0A5082;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid #021B2D;
+    min-width: 180px;
+    font-size: 1.2rem;
+    transition: color .05s ease-in-out, background-color .05s ease-in-out, border-color .05s ease-in-out, box-shadow .05s ease-in-out;
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #0A5082;
+    color: white;
+    border-color: white;
+}
+
+.btn-primary:active {
+    background-color: #072f4d !important;
+    border-color: black !important;
+}
+
+.btn-primary:focus {
+    box-shadow: none !important;
+    border-color: white;
+}
+
+.btn-primary:active:focus {
+    border-color: white !important;
+}
+
+.btn-big {
+    width: 400px;
+    margin: auto;
+}
+
+.button-container-flex {
+    margin-bottom: 4px;
+}
+
+.button-center-container {
+    display: flex;
 }

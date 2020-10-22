@@ -9,5 +9,16 @@ function applyRandomImage() {
         "/images/games/santajetpack_icon.png",
         "/images/games/santatower_icon.png",
     ];
-    backgroundElement.style.backgroundImage = "url('" + images[Math.floor(Math.random() * images.length)] + "')";
+    var titles = [
+        "Jumps",
+        "Quible Sphere",
+        "Santa Gets a Shotgun",
+        "Santa's Jetpack",
+        "Santa Gets a Tower"
+    ];
+
+    var randomNumber = Math.floor(Math.random() * images.length);
+
+    backgroundElement.style.backgroundImage = "url('" + images[randomNumber] + "')";
+    backgroundElement.title = titles[randomNumber];
 }
