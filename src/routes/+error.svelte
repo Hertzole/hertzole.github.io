@@ -1,5 +1,4 @@
-<script lang="ts" context="module">
-	
+<script lang="ts" context="module">	
 	import * as vars from '$app/environment';
 	import Typewriter from 'svelte-typewriter';
 
@@ -17,10 +16,9 @@
 		'Four oh four.',
 		"This is not the page you're looking for."
 	];
-	console.log(JSON.stringify(vars));
+
 	let message: string = '';
 	let interval: number;
-
 
 	if(vars.browser){
 		let messageIndex = Math.floor(Math.random() * messages.length);
@@ -33,12 +31,20 @@
 	<title>Hertzole - 404</title>
 </svelte:head>
 
-<div class="flex items-center bg-grey-lighter error-page bg-primary pt-14 justify-center flex-col">
-	<h1 class="text-center text-9xl font-header text-neutral-200 mb-4">404</h1>
-	<div class="h-10">
-		<Typewriter cursor={false} interval={interval}>
-			<h1 class="text-4xl text-neutral-200">{message}</h1>
-		</Typewriter>
-	</div>	
-	<a href="/" class="text-center text-neutral-300 mt-8 text-2xl">Go home</a>
-</div>
+
+<script>
+	import Layout from "@components/Layout.svelte";
+
+</script>
+
+<Layout>
+    <div class="flex items-center bg-grey-lighter error-page bg-primary pt-14 justify-center flex-col">
+		<h1 class="text-center text-9xl font-header text-neutral-200 mb-4">404</h1>
+		<div class="h-10">
+			<Typewriter cursor={false} interval={interval}>
+				<h1 class="text-4xl text-neutral-200">{message}</h1>
+			</Typewriter>
+		</div>	
+		<a href="/" class="text-center text-neutral-300 mt-8 text-2xl">Go home</a>
+	</div>
+</Layout>
