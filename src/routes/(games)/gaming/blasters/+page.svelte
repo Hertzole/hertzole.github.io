@@ -9,6 +9,7 @@
 
 <svelte:head>
 	<title>Blasters</title>
+	<meta name="description" content="Blaster game.">
 	<script src="/blasters/UnityLoader.js"></script>
 </svelte:head>
 

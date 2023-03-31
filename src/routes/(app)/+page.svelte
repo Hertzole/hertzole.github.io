@@ -163,6 +163,7 @@
 
 <svelte:head>
 	<title>Hertzole</title>
+	<meta name="description" content="Game developer who likes tools more than games.">
 </svelte:head>
 
 <BackgroundImage />
