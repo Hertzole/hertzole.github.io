@@ -18,7 +18,8 @@
 				'Developed internal level editor'
 			],
 			backgroundPosition: '0',
-			releaseYear: '2022'
+			releaseYear: '2022',
+			urlDescription: 'Link to Block\'Em! on Steam'
 		},
 		{
 			name: 'Chenso Club',
@@ -26,7 +27,8 @@
 			url: 'https://store.steampowered.com/app/1454730/Chenso_Club/',
 			responsibilities: ['Developed UI systems', 'Quality of life fixes'],
 			backgroundPosition: '-4.5rem',
-			releaseYear: '2022'
+			releaseYear: '2022',
+			urlDescription: 'Link to Chenso Club on Steam'
 		},
 		{
 			name: 'Ooglians',
@@ -34,7 +36,8 @@
 			url: 'https://store.steampowered.com/app/2162070/Ooglians/',
 			responsibilities: ['Maintainer after lead developer left', 'Quality of life fixes'],
 			backgroundPosition: '-3rem',
-			releaseYear: '2022'
+			releaseYear: '2022',
+			urlDescription: 'Link to Ooglians on Steam'
 		}
 	];
 
@@ -45,7 +48,8 @@
 			url: 'https://hertzole.itch.io/greatest-gifter',
 			description:
 				'A Christmas game jam game created internally at Aurora Punks with a coworker where you play with 3 other online players to see who can collect the most gifts.',
-			releaseYear: '2021'
+			releaseYear: '2021',
+			urlDescription: 'Link to Greatest Gifter on Itch.io'
 		},
 		{
 			name: 'Santa Gets A Tower',
@@ -53,7 +57,8 @@
 			url: 'https://hertzole.itch.io/santa-gets-a-tower',
 			description:
 				'A Christmas game where you play as Santa defending his cabin from snowmen by placing down towers and throwing snowballs at them.',
-			releaseYear: '2019'
+			releaseYear: '2019',
+			urlDescription: 'Link to Santa Gets A Tower on Itch.io'
 		},
 		{
 			name: 'Santa Gets A Shotgun',
@@ -61,7 +66,8 @@
 			url: 'https://hertzole.itch.io/santa-gets-a-shotgun',
 			description:
 				'A endless wave game where you play as Santa and shooting snowmen with your shotgun.',
-			releaseYear: '2018'
+			releaseYear: '2018',
+			urlDescription: 'Link to Santa Gets A Shotgun on Itch.io'
 		},
 		{
 			name: 'Quible Sphere',
@@ -70,7 +76,8 @@
 			url: 'https://store.steampowered.com/app/840380/Quible_Sphere',
 			description:
 				'A bard rolling game where you play as a sphere that needs to traverse hard levels without falling off, while collecting cubes and racing against the clock.',
-			releaseYear: '2018'
+			releaseYear: '2018',
+			urlDescription: 'Link to Quible Sphere on Steam'
 		},
 		{
 			name: 'Jumps',
@@ -78,7 +85,8 @@
 			url: 'https://hertzole.itch.io/jumps',
 			description:
 				'A school project where you jump on different colored cubes to get special effects to complete levels as fast as possible.',
-			releaseYear: '2016'
+			releaseYear: '2016',
+			urlDescription: 'Link to Jumps on Itch.io'
 		},
 		{
 			name: "Santa's Jetpack",
@@ -86,7 +94,8 @@
 			url: 'https://gamejolt.com/games/santa-s-jetpack/41725',
 			description:
 				'A endless runner game where you play as Santa that needs to collect presents to keep his jetpack fueled while avoiding obstacles.',
-			releaseYear: '2014'
+			releaseYear: '2014',
+			urlDescription: 'Link to Santa\'s Jetpack on Game Jolt'
 		}
 	];
 
@@ -95,30 +104,35 @@
 			name: 'Scriptable Values',
 			url: 'https://github.com/Hertzole/scriptable-values',
 			description:
-				'A library for Unity that allows you to create scriptable objects that can be used as variables, events, collections, and pools in the inspector.'
+				'A library for Unity that allows you to create scriptable objects that can be used as variables, events, collections, and pools in the inspector.',
+			urlDescription: 'Link to Scriptable Values on GitHub'
 		},
 		{
 			name: 'Cecil Attributes',
 			url: 'https://github.com/Hertzole/cecil-attributes',
 			description:
-				'Adds a few new attributes to your Unity project that injects code into the assembly using Mono.Cecil to automate certain tasks.'
+				'Adds a few new attributes to your Unity project that injects code into the assembly using Mono.Cecil to automate certain tasks.',
+			urlDescription: 'Link to Cecil Attributes on GitHub'
 		},
 		{
 			name: 'Runtime Options Manager',
 			url: 'https://github.com/Hertzole/runtime-options-manager',
 			description:
-				'Allows you to easily set up runtime options in your Unity game using scriptable objects.'
+				'Allows you to easily set up runtime options in your Unity game using scriptable objects.',
+			urlDescription: 'Link to Runtime Options Manager on GitHub'
 		},
 		{
 			name: 'Advanced Level Editor',
 			url: 'https://github.com/Hertzole/advanced-level-editor',
 			description:
-				'A runtime level editor for your Unity games that use code generation for easy serialization.'
+				'A runtime level editor for your Unity games that use code generation for easy serialization.',
+			urlDescription: 'Link to Advanced Level Editor on GitHub'
 		},
 		{
 			name: 'Gold Player',
 			url: 'https://github.com/Hertzole/gold-player',
-			description: 'A player controller for Unity that is easy to use.'
+			description: 'A player controller for Unity that is easy to use.',
+			urlDescription: 'Link to Gold Player on GitHub'
 		}
 	];
 

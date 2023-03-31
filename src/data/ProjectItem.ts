@@ -7,4 +7,5 @@ export type ProjectItem = {
     responsibilities?: string[];
     backgroundPosition?: string;
     releaseYear?: string;
+    urlDescription?: string;
 };
