@@ -12,5 +12,5 @@
 </div>
 <slot/>
 <div class="bg-footer flex h-20 justify-center">
-    <h1 class="text-center text-neutral-500 text-base mt-4 ml-2 mr-2">Copyright © Hertzole <span>{copyrightYear}</span> ● All images used with permission</h1>
+    <h1 class="text-center text-base mt-4 ml-2 mr-2" style="color: #A1A1A1;">Copyright © Hertzole <span>{copyrightYear}</span> ● All images used with permission</h1>
 </div>
