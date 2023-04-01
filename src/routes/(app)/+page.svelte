@@ -5,10 +5,20 @@
 	import ProjectsGrid from '@components/ProjectsGrid.svelte';
 	import type { ProjectItem } from '@data/ProjectItem';
 
+	import blockemImage from '@assets/games/blockem-capsule.png';
+	import chensoImage from '@assets/games/chenso-capsule.png';
+	import oogliansImage from '@assets/games/ooglians-capsule.png';
+	import greatestGifterImage from '@assets/games/greatest-gifter-capsule.png';
+	import santaTowerImage from '@assets/games/santa-gets-a-tower-capsule.png';
+	import santaShotgunImage from '@assets/games/santa-gets-a-shotgun-capsule.png';
+	import quibleImage from '@assets/games/quible-sphere-capsule.png';
+	import jumpsImage from '@assets/games/jumps-capsule.png';
+	import santaJetpackImage from '@assets/games/santas-jetpack-capsule.png';
+
 	let professionalGames: ProjectItem[] = [
 		{
 			name: "Block'Em!",
-			image: 'blockem-capsule',
+			image: blockemImage,
 			url: 'https://store.steampowered.com/app/1529220/BlockEm/',
 			responsibilities: [
 				'Lead developer',
@@ -23,7 +33,7 @@
 		},
 		{
 			name: 'Chenso Club',
-			image: 'chenso-capsule',
+			image: chensoImage,
 			url: 'https://store.steampowered.com/app/1454730/Chenso_Club/',
 			responsibilities: ['Developed UI systems', 'Quality of life fixes'],
 			backgroundPosition: '-4.5rem',
@@ -32,7 +42,7 @@
 		},
 		{
 			name: 'Ooglians',
-			image: 'ooglians-capsule',
+			image: oogliansImage,
 			url: 'https://store.steampowered.com/app/2162070/Ooglians/',
 			responsibilities: ['Maintainer after lead developer left', 'Quality of life fixes'],
 			backgroundPosition: '-3rem',
@@ -44,7 +54,7 @@
 	let personalGames: ProjectItem[] = [
 		{
 			name: 'Greatest Gifter',
-			image: 'greatest-gifter-capsule',
+			image: greatestGifterImage,
 			url: 'https://hertzole.itch.io/greatest-gifter',
 			description:
 				'A Christmas game jam game created internally at Aurora Punks with a coworker where you play with 3 other online players to see who can collect the most gifts.',
@@ -53,7 +63,7 @@
 		},
 		{
 			name: 'Santa Gets A Tower',
-			image: 'santa-gets-a-tower-capsule',
+			image: santaTowerImage,
 			url: 'https://hertzole.itch.io/santa-gets-a-tower',
 			description:
 				'A Christmas game where you play as Santa defending his cabin from snowmen by placing down towers and throwing snowballs at them.',
@@ -62,7 +72,7 @@
 		},
 		{
 			name: 'Santa Gets A Shotgun',
-			image: 'santa-gets-a-shotgun-capsule',
+			image: santaShotgunImage,
 			url: 'https://hertzole.itch.io/santa-gets-a-shotgun',
 			description:
 				'A endless wave game where you play as Santa and shooting snowmen with your shotgun.',
@@ -71,7 +81,7 @@
 		},
 		{
 			name: 'Quible Sphere',
-			image: 'quible-sphere-capsule',
+			image: quibleImage,
 			backgroundPosition: '-4rem',
 			url: 'https://store.steampowered.com/app/840380/Quible_Sphere',
 			description:
@@ -81,7 +91,7 @@
 		},
 		{
 			name: 'Jumps',
-			image: 'jumps-capsule',
+			image: jumpsImage,
 			url: 'https://hertzole.itch.io/jumps',
 			description:
 				'A school project where you jump on different colored cubes to get special effects to complete levels as fast as possible.',
@@ -90,7 +100,7 @@
 		},
 		{
 			name: "Santa's Jetpack",
-			image: 'santas-jetpack-capsule',
+			image: santaJetpackImage,
 			url: 'https://gamejolt.com/games/santa-s-jetpack/41725',
 			description:
 				'A endless runner game where you play as Santa that needs to collect presents to keep his jetpack fueled while avoiding obstacles.',

@@ -3,6 +3,7 @@
 
 	export let project: ProjectItem;
 	export let backgroundColor: string = 'bg-card';
+
 </script>
 
 <div
@@ -16,7 +17,7 @@
             aria-label={project.urlDescription ? project.urlDescription : 'Link to ' + project.name}
 		>
 			<div
-				style="background-image: url('images/games/{project.image}.png'); background-position-y: {project.backgroundPosition ===
+				style="background-image: url('{project.image?.fallback?.src}'); background-image: -webkit-image-set(url('{project.image.sources['webp'][0].src}') 1x); background-position-y: {project.backgroundPosition ===
 				undefined
 					? 'center'
 					: project.backgroundPosition};"
