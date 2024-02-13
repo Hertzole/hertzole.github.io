@@ -12,8 +12,8 @@ export default defineConfig({
 				// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 				// @ts-ignore
 				return new URLSearchParams({
-					format: 'avif;webp;' + extension,
-					picture: true
+					format: 'webp;' + extension,
+					as: 'picture'
 				})
 			}
 			return new URLSearchParams();

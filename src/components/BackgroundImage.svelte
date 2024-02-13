@@ -52,7 +52,7 @@
 	<div
 		transition:fade
 		id="background-image"
-		style="background-image: url('{image?.fallback?.src}'); background-image: -webkit-image-set(url('{image.sources['webp'][0].src}') 1x);"
+		style="background-image: url('{image?.img?.src}'); background-image: -webkit-image-set(url('{image.sources['webp'].split(' ')[0]}') 1x);"
 	/>
 {:else}
 	<div id="background-image" class="bg-transparent" />

@@ -1,1 +1,1 @@
-export type ProcessedImage = { fallback: { src: string }; sources: Record<string, { src: string; format: string }[]> };
+export type ProcessedImage = { img: { src: string }; sources: Record<string, string> };
