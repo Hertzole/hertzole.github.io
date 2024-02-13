@@ -14,6 +14,8 @@
 	import quibleImage from '@assets/games/quible-sphere-capsule.png';
 	import jumpsImage from '@assets/games/jumps-capsule.png';
 	import santaJetpackImage from '@assets/games/santas-jetpack-capsule.png';
+	import furiousBusinessImage from '@assets/games/furious-business.png';
+	import santaGetsAShotgun2Image from '@assets/games/santa-gets-a-shotgun-2-capsule.png';
 
 	let professionalGames: ProjectItem[] = [
 		{
@@ -52,6 +54,24 @@
 	];
 
 	let personalGames: ProjectItem[] = [
+		{
+			name: 'Santa Gets A Shotgun 2',
+			image: santaGetsAShotgun2Image,
+			url: 'https://hertzole.itch.io/santa-gets-a-shotgun-2',
+			description:
+				'A endless wave game where you play as Santa and shooting snowmen with your shotgun, the sequel to Santa Gets A Shotgun.',
+			releaseYear: '2023',
+			urlDescription: 'Link to Santa Gets A Shotgun 2 on Itch.io'
+		},
+		{
+			name: 'Furious Business',
+			image: furiousBusinessImage,
+			url: 'https://hertzole.itch.io/furious-business',
+			description:
+				'A game jam game created internally at Aurora Punks with a coworker where you play as a business owner trying to keep your customers happy.',
+			releaseYear: '2023',
+			urlDescription: 'Link to Furious Business on Itch.io'
+		},
 		{
 			name: 'Greatest Gifter',
 			image: greatestGifterImage,
@@ -110,6 +130,13 @@
 	];
 
 	let assets: ProjectItem[] = [
+		{
+			name: 'GameJolt.NET',
+			url: 'https://github.com/Hertzole/gamejolt.net',
+			description:
+				'A modern C# wrapper around the GameJolt Game API for .NET and Unity.',
+			urlDescription: 'Link to GameJolt.NET on GitHub'
+		},
 		{
 			name: 'Scriptable Values',
 			url: 'https://github.com/Hertzole/scriptable-values',
