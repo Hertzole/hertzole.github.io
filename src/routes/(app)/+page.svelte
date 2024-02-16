@@ -68,7 +68,7 @@
 			image: furiousBusinessImage,
 			url: 'https://hertzole.itch.io/furious-business',
 			description:
-				'A game jam game created internally at Aurora Punks with a coworker where you play as a business owner trying to keep your customers happy.',
+				'A game jam game created for Lv. 99 Game Jam 2023 where you play as a furious business man who needs to take a deep breath to calm down.',
 			releaseYear: '2023',
 			urlDescription: 'Link to Furious Business on Itch.io'
 		},
